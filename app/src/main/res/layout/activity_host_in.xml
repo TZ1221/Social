@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hostIn">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="178dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="16dp"
+        android:text="host-waiting"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/threshold"
+        android:layout_width="112dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="212dp"
+        android:text="threshold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="346dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="328dp"
+        android:text="email list"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="426dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="596dp"
+        android:text="host address"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/activity"
+        android:layout_width="146dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="444dp"
+        android:text="activity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

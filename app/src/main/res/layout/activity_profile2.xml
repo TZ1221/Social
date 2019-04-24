@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile2">
+
+    <Button
+        android:id="@+id/user"
+        android:layout_width="187dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="252dp"
+        android:text="user"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/host"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="468dp"
+        android:text="host"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="254dp"
+        android:layout_height="77dp"
+        android:text="Do you want to log in as  a user or host"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="91dp" />
+</android.support.constraint.ConstraintLayout>

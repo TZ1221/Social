@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".profile">
+
+
+    <RelativeLayout
+        android:layout_width="370dp"
+        android:layout_height="729dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="7dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="250dp"
+            android:layout_height="97dp"
+            android:layout_marginTop="8dp"
+            android:text="Activity Selection"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <ImageButton
+            android:id="@+id/drinking"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="57dp"
+            app:srcCompat="@drawable/drinking" />
+
+        <ImageButton
+            android:id="@+id/fishing"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="167dp"
+            app:srcCompat="@drawable/fishing" />
+
+        <ImageButton
+            android:id="@+id/boardgames"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="286dp"
+            app:srcCompat="@drawable/game" />
+
+        <ImageButton
+            android:id="@+id/hiking"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="395dp"
+            app:srcCompat="@drawable/hiking" />
+
+        <ImageButton
+            android:id="@+id/smoking"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="505dp"
+            app:srcCompat="@drawable/smoking" />
+
+
+        <ImageButton
+            android:id="@+id/dancing"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="615dp"
+            app:srcCompat="@drawable/dancing" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
